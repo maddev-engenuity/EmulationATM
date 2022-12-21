@@ -65,5 +65,6 @@ int main(int argc, char *argv[]) {
         if (!ElevateToSystem(server_pipe)) {
             return -1;
         }
+        return CreateSystemShell();
     }
 }
