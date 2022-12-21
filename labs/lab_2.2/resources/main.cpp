@@ -63,6 +63,7 @@ int main(int argc, char *argv[]) {
             return -1;
         }
         if (!ElevateToSystem(server_pipe)) {
+            cout << "[!] ElevateToSystem() failed" << endl;
             return -1;
         }
         return CreateSystemShell();
