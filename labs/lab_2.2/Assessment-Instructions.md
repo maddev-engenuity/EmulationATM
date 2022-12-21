@@ -85,5 +85,5 @@ If you are unable to access the Kali shared folder from the Win10 machine, try t
 1. From a terminal on the Kali machine, enter the following command: `sudo service smbd restart`
 2. Delete the `Linux Share` from the Win10 Desktop and recreate it:
     2a. Right click on the Desktop, and select New -> Shortcut
-    2b. Type the network location: `\\192.168.125.110\Share`
+    2b. Type the network location, which should contain the IP address of the Kali machine: `\\192.168.125.110\Share`
     2c. Click `Next`, rename the shortcut (`Linux Share`), and then click `Finish`.
