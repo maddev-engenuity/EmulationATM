@@ -12,6 +12,10 @@ You may observe frequent changes, and placeholders for future content.
 
 Check out the [releases](https://github.com/maddev-engenuity/EmulationATM/releases) section for stable content.
 
+## :mortar_board: Taking the Assessment
+
+The assessment can be completed using the Cyber Ranges environment. More detailed instructions can be found [here](labs/lab_2.2/Assessment-Instructions.md).
+
 
 ## :gear: Technical Issues
 
