@@ -79,6 +79,12 @@ If the exploit works successfully, you should see a `cmd.exe` shell open on the 
 If you encounter any issues while taking the assessment, please open a new GitHub issue describing the
 encountered problem, and the remediation steps that you have taken.
 
+### Scheduled Task Won't Run/Not Supported
+Verify that remote scheduled tasks are allowed on the Win2019_DC Machine:
+1. Open Control Panel->Windows Defender Firewall->Allow an app through Windows Firewall
+2. Click `Change Settings`
+3 Scroll down until you see Remote Scheduled Tasks Management, and make sure all check boxes for that row are selected.
+
 ### Issues with SMB Share
 If you are unable to access the Kali shared folder from the Win10 machine, try these steps:
 
@@ -87,3 +93,5 @@ If you are unable to access the Kali shared folder from the Win10 machine, try t
     2a. Right click on the Desktop, and select New -> Shortcut
     2b. Type the network location, which should contain the IP address of the Kali machine: `\\192.168.125.110\Share`
     2c. Click `Next`, rename the shortcut (`Linux Share`), and then click `Finish`.
+
+If you are prompted for credentials for `Linux Share`, use the Kali Credentials (username: attacker, password: ATT&CK)
