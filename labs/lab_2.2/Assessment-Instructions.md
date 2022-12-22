@@ -12,7 +12,7 @@ As a precaution, you should not perform these labs on any system that contains s
 
 ## Accessing the Machines
 
-Each Cyberranges machine should be accessed through the `console` option. When running the exploit, the Win10 and Win2019_DC should both be open in your browser. If required, credentials for the machines are as follows:
+Each Cyber Ranges machine should be accessed through the `console` option. When running the exploit, the Win10 and Win2019_DC should both be open in your browser. If required, credentials for the machines are as follows:
 
 | Machine Name | Username | Password |
 | ---------- | ---------- | ---------- |
@@ -22,7 +22,7 @@ Each Cyberranges machine should be accessed through the `console` option. When r
 
 ## Completing the Assessment
 
-The Shamoon malware we are emulating will be written in C++ and should be developed on the Kali machine. The malware will move laterally from the Win10 machine
+The Shamoon malware we are emulating will be written in C++ and should be developed on the Kali machine. The malware will first run on the Win10 machine, and then move laterally from the Win10 machine
 to the Win2019_DC machine, elevating its privileges along the way.
 The completed exploit is broken down into the following steps, with the tasks that you need to complete marked with **TODO**:
 
