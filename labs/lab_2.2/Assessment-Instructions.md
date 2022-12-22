@@ -89,9 +89,10 @@ Verify that remote scheduled tasks are allowed on the Win2019_DC Machine:
 If you are unable to access the Kali shared folder from the Win10 machine, try these steps:
 
 1. From a terminal on the Kali machine, enter the following command: `sudo service smbd restart`
-2. Delete the `Linux Share` from the Win10 Desktop and recreate it:
-    2a. Right click on the Desktop, and select New -> Shortcut
-    2b. Type the network location, which should contain the IP address of the Kali machine: `\\192.168.125.110\Share`
-    2c. Click `Next`, rename the shortcut (`Linux Share`), and then click `Finish`.
+2. From a powershell terminal on the Win10 machine, ping the kali machine: `ping 192.168.125.110`
+3. Delete the `Linux Share` from the Win10 Desktop and recreate it:
+    3a. Right click on the Desktop, and select New -> Shortcut
+    3b. Type the network location, which should contain the IP address of the Kali machine: `\\192.168.125.110\Share`
+    3c. Click `Next`, rename the shortcut (`Linux Share`), and then click `Finish`.
 
 If you are prompted for credentials for `Linux Share`, use the Kali Credentials (username: attacker, password: ATT&CK)
