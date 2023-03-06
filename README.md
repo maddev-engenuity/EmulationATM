@@ -1,4 +1,4 @@
-# MITRE ATT&CK® Defender - Access Token Manipulation Emulation Repository
+# MITRE ATT&CK® Defender - Emulating Access Token Manipulation Repository
 
 MITRE ATT&CK Defender is the cybersecurity community’s new ATT&CK training and certification program produced by MITRE’s own ATT&CK subject matter experts.
 
